@@ -1,0 +1,66 @@
+@media (max-width: 600px) {
+	#quoteDisp {
+	  font-size: 1.0rem;
+	}
+	.html {
+		height: 100%;
+	}
+  }
+
+@media (max-width: 768px) {
+	h1 {
+	  font-size: 1.5em;
+	}
+	p {
+	  font-size: 1em;
+	}
+  }
+  
+/* Sets the height and background color of the HTML element */
+html {
+	height: 450%;
+	background: #19092d;
+	/* Centers content horizontally and vertically using flexbox */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* Sets font color of the HTML element */
+	color: #F5F8FA;
+}
+
+/* Centers H1 element horizontally */
+h1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Styles for elements with the class "center1" */
+.center1 {
+	/* Centers the element horizontally */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* Sets the width of the element to 30% */
+	width: 60%;
+	text-align: center;
+}
+
+/* Styles for elements with the class "center2" */
+.center2 {
+	/* Centers the element horizontally */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* Sets the width of the element to 30% */
+	width: 60%;
+}
+
+
+body {
+  background-image: url("images/Crown.png"), url("images/Garbage_bin.png");
+  background-repeat: repeat-y, repeat-y;
+  background-position: top left, top right;
+  background-size:20%, 18%;
+}
